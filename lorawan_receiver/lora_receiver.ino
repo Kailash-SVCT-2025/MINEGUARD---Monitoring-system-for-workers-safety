@@ -21,14 +21,14 @@ const float NH3_THRESHOLD = 400;
 const float FALL_THRESHOLD = 15000;
 
 // WiFi & Email credentials
-const char* ssid = "mineguard";
-const char* password = "9876543210";
-EMailSender emailSend("projectwork56789", "sbxh gjqm xirb djdv");
+const char* ssid = " ";
+const char* password = " ";
+EMailSender emailSend(" ", " ");
 
 // ThingSpeak
 WiFiClient client;
-unsigned long myChannelNumber = 2930851; // e.g., 1234567
-const char * myWriteAPIKey = "6KKLM3LGW3VRXFT4";     // e.g., "XYZ123ABC456"
+unsigned long myChannelNumber = ; // e.g., 1234567
+const char * myWriteAPIKey = " ";     // e.g., "XYZ123ABC456"
 
 // Setup
 void setup() {
